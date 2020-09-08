@@ -1,0 +1,33 @@
+$(document).ready(function(){
+    $('nav').mouseenter(function(){
+        $(".navbar").css("background","rgb(47,8,9)");
+        $("#font-size").css("font-size","20px");
+    });
+});
+$(document).ready(function(){
+    $('nav').mouseleave(function(){
+        $(".navbar").css("background","rgb(91, 0, 37)");
+        $("#font-size").css("font-size","16px");
+    });
+});
+$(document).ready(function(){
+    $("#footer").mouseenter(function(){
+        $(".col-sm-4").css({
+            "font-size":"20px",
+        });
+        $("footer").css({
+            "background":"rgb(47,8,9)",
+        });
+    });
+});
+$(document).ready(function(){
+    $("#footer").mouseleave(function(){
+        $(".col-sm-4").css({
+            "font-size":"16px",
+        });
+        $("footer").css({
+            "background":"rgb(91,0,37)",
+        });
+    });
+});
+

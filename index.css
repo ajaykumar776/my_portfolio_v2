@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin:0;
+    /* font-family: 'Niconne', cursive; */
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'open sans', sans-serif;
+       
+}
+.navbar{
+    border-radius: 0%;
+    border-bottom: 5px solid rgba(201, 122, 32, 0.966);
+    background-color:rgb(91, 0, 37)
+}
+#about
+{
+    padding-top: 50px;
+}
+.section-subtitle
+{
+    font-size-adjust: initial;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+} 
+.active
+{
+    background-color: rgb(99, 100, 99);
+}
+.section-title{
+    color: maroon;
+    font-size: 28px;
+    font-weight: bold;
+}
+footer
+{
+    background-color: rgb(91, 0, 37);
+    padding: 20px;
+}
+.sub-footer
+{
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+}
+.row_size {
+    font-size: 20px;
+}
+.navbar-header a:hover{
+    color: white !important;
+    
+}
+.nav {
+    font-size: 16px;
+}
+.gap{
+    padding: 20px 0;
+}
+.gap-small{
+    padding: 10px 0;
+}
+.section-description{
+    font-size: 15px;
+    color: rgb(99, 100, 99);
+}
+#about p{
+    font-size: 15px;
+    color: rgb(99, 100, 99);
+}
+.col-sm-2
+{
+    font-size: 15px;
+    color: black;
+}
+#certifications .thumbnail
+{
+    min-height: 450px;
+}
+.btn .btn-default
+{
+padding-top: 10px 10px;
+
+}
+
